@@ -1,0 +1,212 @@
+:root {
+    /* Color Styles */
+    --primary-color: #3F2E3E;
+    --dark-bg-color: #2A1F29;
+    --secondary-color: #EFE1D1;
+    --main-bg-color: #F4ECE2;
+    --light-text-color: #F7F0E8;
+    --dark-text-color: #0D090C;
+
+    /* Text Styles */
+    --h1-text-size: 4rem;
+    --h2-text-size: 2rem;
+    --h3-text-size: 1.5rem;
+    --h4-text-size: 1.25rem;
+    --body-text-size: 1.125rem;
+    --body-sm-text-size: 1rem;
+    --fw-bold: 700;
+    --fw-semi-bold: 600;
+    --fw-medium: 500;
+    --fw-regular: 400;
+
+    /* Box Shadow */
+    --main-shadow: 0px 4px 4px 0px rgba(80, 75, 70, 0.3);
+}
+
+body {
+    font-size: 16px;
+    background-color: var(--main-bg-color);
+    font-family: 'Cabin', sans-serif;
+    color: var(--dark-text-color);
+}
+
+h1 {
+    font-size: var(--h1-text-size);
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h6 {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.container {
+    max-width: 1328px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.button {
+    cursor: pointer;
+}
+
+.section-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn-light {
+    padding: 1rem 2.5rem;
+    background-color: var(--secondary-color);
+    color: var(--dark-text-color);
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize;
+}
+
+.btn-stroke-light {
+    padding: 1rem 2.5rem;
+    background-color: transparent;
+    border: 1px solid var(--secondary-color);
+    color: var(--secondary-color);
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize;
+}
+
+
+
+/* NAVIGATION SECTION */
+#header {
+    background-color: var(--dark-bg-color);
+}
+
+.nav-container {
+    max-width: 1328px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--dark-bg-color);
+    color: var(--light-text-color);
+    height: 80px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.nav-links {
+    text-transform: capitalize;
+    display: flex;
+    gap: 0.5rem;
+    font-size: var(--body-text-size);
+}
+
+.nav-links li {
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.nav-links li:hover {
+    text-decoration: underline;
+}
+
+.nav-links li:last-child {
+    padding-right: 0;
+}
+
+.ham-menu {
+    display: none;
+    padding: 0.5rem;
+}
+
+
+/* HERO SECTION */
+#hero {
+    background-color: var(--primary-color);
+}
+
+.container.hero-section {
+    text-align: center;
+    color: var(--light-text-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding-bottom: 18rem;
+    background-image: url('images/credit-cards.png');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-width: 600px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+
+/* PRODUCTS & SERVICES */
+.container.products {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+
+.service-icon-text {
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service-icon-text h6 {
+    color: var(--primary-color);
+    font-size: 1.125rem;
+    text-transform: capitalize;
+    
+}
+
+.title-icon {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.service-img {
+    width: 100px;
+    height: 100px;
+}
+
+.service-img img {
+    width: 100%;
+}
+
+.services {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
