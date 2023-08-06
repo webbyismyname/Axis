@@ -12,6 +12,13 @@
         display: none;
     }
 
+    /* Feature Cards */
+    .feat-cards {
+        flex-direction: column;
+        width: 80%;
+        justify-content: center;
+    }
+
 }
 
 
@@ -27,5 +34,11 @@
     /* Hero Section */
     .hero-buttons {
         flex-direction: column;
+    }
+
+
+    /* Feature Cards */
+    .feat-cards {
+        width: 100%;
     }
 }
