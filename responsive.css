@@ -19,6 +19,24 @@
         justify-content: center;
     }
 
+    /* Mobile app callout */
+    .container.mobile-app {
+        flex-direction: column;
+    }
+
+    .mobile-app-img {
+        order: -1;
+        display: flex;
+        justify-content: center;
+    }
+
+    .mobile-app-text {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
 }
 
 
@@ -41,4 +59,26 @@
     .feat-cards {
         width: 100%;
     }
+
+    /* Mobile app callout */
+    .container.mobile-app {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .mobile-app-text {
+        width: 100%;
+    }
+
+    .mobile-app-img {
+        order: -1;
+    }
+
+    .apple-playstore {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    
+    
 }
