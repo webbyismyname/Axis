@@ -43,6 +43,11 @@ h3 {
     font-weight: var(--fw-bold);
 }
 
+h4 {
+    font-size: var(--h4-text-size);
+    font-weight: var(--fw-bold);
+}
+
 h6 {
     font-size: 1rem;
     font-weight: 700;
@@ -359,5 +364,54 @@ h6 {
 
 .container.mobile-app {
     display: flex;
+}
 
+
+
+/* LOAN RATES SECTION */
+#loan-rates-section {
+    background-color: var(--primary-color);
+    color: var(--light-text-color);
+}
+
+.rate-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid var(--secondary-color);
+    border-radius: 1rem;
+    gap: 1rem;
+    padding: 1.5rem;
+    width: 100%;
+}
+
+.rate-icon-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.rate-icon-header img {
+    width: 2rem;
+}
+
+.apr-rate {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.rate-card-list {
+    display: flex;
+    width: 75%;
+    gap: 1rem;
+}
+
+.container.loan-rates {
+    display: flex;
+    gap: 1rem;
+}
+
+.loan-rates-header {
+    width: 25%;
 }
