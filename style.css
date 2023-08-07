@@ -43,6 +43,11 @@ h3 {
     font-weight: var(--fw-bold);
 }
 
+h4 {
+    font-size: var(--h4-text-size);
+    font-weight: var(--fw-bold);
+}
+
 h6 {
     font-size: 1rem;
     font-weight: 700;
@@ -287,4 +292,126 @@ h6 {
     text-align: center;
     align-items: center;
     gap: 4rem;
+}
+
+
+
+/* MOBILE CALLOUT SECTION */
+.list-feat {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+
+.list-feat h6 {
+    text-align: start;
+}
+
+.list-feat-all {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    row-gap: 0.5rem;
+    column-gap: 1rem;
+}
+
+.download-button {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color);
+    color: var(--light-text-color);
+    padding: 1rem 2rem;
+    padding-left: 1.5rem;
+    border-radius: 0.5rem;
+}
+
+.download-button img {
+    width: 48px;
+}
+
+.download-text{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.download-text p small {
+    font-size: 0.8rem;
+}
+
+.download-text p:last-child {
+    font-weight: var(--fw-bold);
+    font-size: 1.25rem;
+}
+
+.apple-playstore {
+    display: flex;
+    gap: 1rem;
+}
+
+.mobile-app-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 50%;
+}
+
+.mobile-app-text div h2 {
+    margin-bottom: 1rem;
+}
+
+.container.mobile-app {
+    display: flex;
+}
+
+
+
+/* LOAN RATES SECTION */
+#loan-rates-section {
+    background-color: var(--primary-color);
+    color: var(--light-text-color);
+}
+
+.rate-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid var(--secondary-color);
+    border-radius: 1rem;
+    gap: 1rem;
+    padding: 1.5rem;
+    width: 100%;
+}
+
+.rate-icon-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.rate-icon-header img {
+    width: 2rem;
+}
+
+.apr-rate {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.rate-card-list {
+    display: flex;
+    width: 75%;
+    gap: 1rem;
+}
+
+.container.loan-rates {
+    display: flex;
+    gap: 1rem;
+}
+
+.loan-rates-header {
+    width: 25%;
 }

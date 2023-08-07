@@ -19,6 +19,44 @@
         justify-content: center;
     }
 
+    /* Mobile app callout */
+    .container.mobile-app {
+        flex-direction: column;
+    }
+
+    .mobile-app-img {
+        order: -1;
+        display: flex;
+        justify-content: center;
+    }
+
+    .mobile-app-text {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    /* Loan rates */
+    .container.loan-rates {
+        flex-direction: column;
+        text-align: center;
+        gap: 4rem;
+    }
+
+    .loan-rates-header {
+        width: 100%;
+    }
+
+    .rate-card-list {
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .rate-card {
+        max-width: max-content;
+    }
 }
 
 
@@ -41,4 +79,36 @@
     .feat-cards {
         width: 100%;
     }
+
+    /* Mobile app callout */
+    .container.mobile-app {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .mobile-app-text {
+        width: 100%;
+    }
+
+    .mobile-app-img {
+        order: -1;
+    }
+
+    .apple-playstore {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    /* Loan rates */
+    .rate-card-list {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    .rate-card {
+        max-width: 100%;
+    }
+    
 }
