@@ -19,44 +19,17 @@
         justify-content: center;
     }
 
-    /* Mobile app callout */
-    .container.mobile-app {
-        flex-direction: column;
+    /* ABOUT SECTION */
+
+    /* About-Section-3 */
+
+    .about-sec3-text {
+        padding-top: 10px;
+    }
+    .about-sec3-img {
+        height: 100%;
     }
 
-    .mobile-app-img {
-        order: -1;
-        display: flex;
-        justify-content: center;
-    }
-
-    .mobile-app-text {
-        width: 100%;
-        display: flex;
-        align-items: center;
-        text-align: center;
-    }
-
-    /* Loan rates */
-    .container.loan-rates {
-        flex-direction: column;
-        text-align: center;
-        gap: 4rem;
-    }
-
-    .loan-rates-header {
-        width: 100%;
-    }
-
-    .rate-card-list {
-        width: 100%;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-
-    .rate-card {
-        max-width: max-content;
-    }
 }
 
 
@@ -80,35 +53,50 @@
         width: 100%;
     }
 
-    /* Mobile app callout */
-    .container.mobile-app {
+    /* ABOUT Page */
+
+    .about-hero-text {
+        grid-column: 1/4;
+        color: var(--light-text-color);
+        display: flex;
         flex-direction: column;
-        gap: 1rem;
-    }
-
-    .mobile-app-text {
-        width: 100%;
-    }
-
-    .mobile-app-img {
-        order: -1;
-    }
-
-    .apple-playstore {
-        width: 100%;
-        flex-direction: column;
-    }
-
-    /* Loan rates */
-    .rate-card-list {
-        flex-direction: column;
-        flex-wrap: nowrap;
-        align-items: center;
         gap: 1.5rem;
+        max-width: auto;
+        margin-top: auto;
+        margin-bottom: auto;
     }
 
-    .rate-card {
-        max-width: 100%;
+    /* Welcome to the human side of banking */
+
+    .about-sec3-text {
+        grid-column: 1/7;
+        grid-row: 2;
+        padding-top: 10px;
+    }
+
+    .about-sec3-img {
+        grid-column: 1/7;
+        grid-row: 1;
+        height: 100%;
+    }
+
+    /* Our Core Values */
+
+    .core-values-img {
+        grid-column: 1/7;
+        grid-row: 1;
+    }
+
+    .core-values-text {
+        grid-column: 1/7;
+        grid-row: 2;
+    }
+
+    .darken-image {
+        height: 400px;
     }
     
+    .text-overlay {
+        height: 400px;
+    }
 }
