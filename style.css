@@ -108,7 +108,13 @@ h6 {
     text-transform: capitalize;
 }
 
+.grid-6 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 24px;
+}
 
+/* LANDING PAGE */
 
 /* NAVIGATION SECTION */
 #header {
@@ -414,4 +420,146 @@ h6 {
 
 .loan-rates-header {
     width: 25%;
+}
+
+
+
+
+
+
+/* ABOUT PAGE */
+
+/* About-Hero Section */
+
+#about-hero {
+    background-image: url('images/safe.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+.about-hero-text {
+    color: var(--light-text-color);
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-width: 500px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.about-hero-div {
+    height: 500px;
+    padding-left: 40px;
+    display: flex;
+    align-items: center;
+}
+
+/* Today, we work towards one thing - tomorrow */
+
+.about-sec2 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-width: 1000px;
+}
+
+/* Welcome to the human side of banking */
+
+.about-sec3-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    grid-column: 1/4;
+    padding-top: 40px;
+}
+
+.about-sec3-img {
+    grid-column: 4/7;
+    height: 300px;
+    border-radius: 1rem; 
+    overflow: hidden;
+}
+
+/* Our Core Values */
+
+.core-values-img {
+    position: relative;
+    grid-column: 1/4;
+}
+
+.darken-image {
+    width: 100%;
+    height: 780px;
+    border-radius: 16px;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 780px;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 1;
+    color: var(--light-text-color);
+    border-radius: 1rem;
+    padding-top: 4rem;
+    padding-left: 1rem;
+}
+
+.text-overlay > h3 {
+    max-width: 500px;
+}
+
+.core-values-text {
+    grid-column: 4/7;
+}
+
+.cv-text-div {
+    margin-top: 40px;
+}
+
+.cv-text-icn {
+    height: 100px;
+    width: 100px;
+    background-color: var(--primary-color);
+    border-radius: 8px;
+    grid-column: 1/2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cv-text-txt {
+    grid-column: 2/7;
+}
+
+.cv-text-txt > h4 {
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+/* Our Locations */
+
+#our-locations {
+    background-color: var(--primary-color);
+}
+
+.locations-div {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    text-align: center;
+    color: var(--light-text-color);
+}
+
+.locations-icn {
+    height: 100px;
+    width: 100px;
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
