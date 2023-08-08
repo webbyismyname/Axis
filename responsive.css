@@ -209,6 +209,7 @@
     .text-overlay {	
         height: 400px;	
     }
+
     
     /* Products and Srvices */
 
@@ -220,6 +221,16 @@
     .pdts-and-srvs-img {
         grid-column: 1/7;
         grid-row: 1;
+
+
+    .cv-text-icn {
+        height: 70px;
+        width: 70px;
+    }
+
+    .cv-text-icn > img {
+        height: 32px;
+        width: 32px;
     }
 
 }
