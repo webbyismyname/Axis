@@ -27,7 +27,7 @@
         right: 0;
         padding-top: 10rem;
         width: 100%;
-        display: flex;
+        display: none;
         flex-direction: column;
         gap: 3rem;
         align-items: center;
