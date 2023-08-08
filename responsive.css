@@ -21,19 +21,25 @@
     .mobile-navigation-menu {
         position: absolute;
         background-color: var(--dark-bg-color);
-        top: 0;
-        left: 0;
+        top: 80px;
+        left: -100%;
         bottom: 0;
         right: 0;
-        padding-top: 10rem;
+        padding-top: 0;
         width: 100%;
-        display: none;
+        display: flex;
         flex-direction: column;
         gap: 3rem;
         align-items: center;
         text-align: center;
         padding-bottom: 4rem;
         overflow-y: scroll;   /* Makes the content of the mobile header scroll */
+        transition: all 0.3s ease;
+    }
+
+    .appear {
+        left: 0;
+        transition: all 0.3s ease-in-out;
     }
 
     /* Feature Cards */
