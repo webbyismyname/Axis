@@ -35,7 +35,7 @@ h1 {
 }
 
 h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 h3 {
@@ -660,9 +660,6 @@ h6 {
 
 .about-sec3-img {
     grid-column: 4/7;
-    height: 300px;
-    border-radius: 1rem; 
-    overflow: hidden;
 }
 
 /* Our Core Values */
@@ -749,4 +746,20 @@ h6 {
     margin-right: auto;
 }
 
+/* Products and Srvices */
 
+.pdts-and-srvs {
+    grid-column: 1/4;
+}
+
+.pdts-and-srvs-text {
+    margin-bottom: 24px;
+}
+
+.pdts-and-srvs-text p {
+    margin-top: 16px;
+}
+
+.pdts-and-srvs-img {
+    grid-column: 4/7;
+}
