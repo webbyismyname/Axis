@@ -170,6 +170,7 @@ p {
 .ham-menu {
     display: none;
     padding: 0.5rem;
+    cursor: pointer;
 }
 
 /* Mobile Navigation Menu */
