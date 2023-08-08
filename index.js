@@ -1,11 +1,13 @@
 const mobileNavMenu = document.querySelector('.mobile-navigation-menu');
 const hamburgerMenuIcon = document.querySelector('.ham-menu');
 
-hamburgerMenuIcon.addEventListener('mousedown', function() {
-    mobileNavMenu.style.display = "flex";
-})
+const firstHamBar = document.querySelector('.ham-menu .bar:first-child');
+const secondHamBar = document.querySelector('.ham-menu .bar:nth-child(2)');
+const thirdHamBar = document.querySelector('.ham-menu .bar:last-child');
 
-const mobileMenuCloseIcon = document.querySelector('.mobile-nav-close');
-mobileMenuCloseIcon.addEventListener('mousedown', function() {
-    mobileNavMenu.style.display = "none";
+hamburgerMenuIcon.addEventListener('mousedown', function() {
+    mobileNavMenu.classList.toggle('appear');
+    firstHamBar.classList.toggle('rotate-left');
+    secondHamBar.classList.toggle('opaque');
+    thirdHamBar.classList.toggle('rotate-right');
 })
