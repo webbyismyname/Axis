@@ -98,20 +98,18 @@
 
 
 
-
-
-
-
-
     /* ABOUT PAGE */
 
-    /* About-Section-3 */
-    .about-sec3-text {
-        padding-top: 10px;
-    }
+    /* Welcome to the human side of banking */
 
-    .about-sec3-img {
-        height: 100%;
+
+    .about-sec3-text {	
+        grid-column: 1/7;	
+        grid-row: 2;
+    }	
+    .about-sec3-img {	
+        grid-column: 1/7;	
+        grid-row: 1;	
     }
 
     /* Core Values */
@@ -134,7 +132,24 @@
     .text-overlay {	
         height: 600px;	
     }
+
+    /* Products and Srvices */
+
+    .pdts-and-srvs {
+        grid-column: 1/7;
+        grid-row: 2;
+    }
+    
+    .pdts-and-srvs-img {
+        grid-column: 1/7;
+        grid-row: 1;
+    }
 }
+
+
+
+
+
 
 
 @media (max-width: 576px) {
@@ -255,6 +270,16 @@
         height: 400px;	
     }
 
+    .cv-text-icn {
+        height: 70px;
+        width: 70px;
+    }
+
+    .cv-text-icn > img {
+        height: 32px;
+        width: 32px;
+    }
+
     
     /* Products and Srvices */
 
@@ -266,16 +291,6 @@
     .pdts-and-srvs-img {
         grid-column: 1/7;
         grid-row: 1;
-    }
-    
-    .cv-text-icn {
-        height: 70px;
-        width: 70px;
-    }
-
-    .cv-text-icn > img {
-        height: 32px;
-        width: 32px;
     }
 
 }
