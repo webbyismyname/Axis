@@ -116,6 +116,12 @@ h6 {
     grid-gap: 24px;
 }
 
+.grid-8 {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-gap: 24px;
+}
+
 /* LANDING PAGE */
 
 /* NAVIGATION SECTION */
