@@ -59,24 +59,11 @@
         max-width: max-content;
     }
 
-<<<<<<< HEAD
-
-    /* ABOUT SECTION */	
-
-
-    /* About-Section-3 */	
-    .about-sec3-text {	
-        padding-top: 10px;	
-    }	
-    .about-sec3-img {	
-        height: 100%;	
-=======
     /*INSIGHT SECTION */
     .insight-card-list {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
         row-gap: 2rem;
->>>>>>> 55d951af1d199af29b9bade1956b10dd2927799a
     }
 
     /* Core Values */
@@ -182,56 +169,6 @@
 
 
 
-<<<<<<< HEAD
-     /* ABOUT Page */	
-
-     .about-hero-text {	
-        grid-column: 1/4;	
-        color: var(--light-text-color);	
-        display: flex;	
-        flex-direction: column;	
-        gap: 1.5rem;	
-        max-width: auto;	
-        margin-top: auto;	
-        margin-bottom: auto;	
-    }	
-
-
-    /* Welcome to the human side of banking */
-    
-    
-    .about-sec3-text {	
-        grid-column: 1/7;	
-        grid-row: 2;	
-        padding-top: 10px;	
-    }	
-    .about-sec3-img {	
-        grid-column: 1/7;	
-        grid-row: 1;	
-        height: 100%;	
-    }
-
-
-    /* Our Core Values */	
-
-
-    .core-values-img {	
-        grid-column: 1/7;	
-        grid-row: 1;	
-    }	
-    .core-values-text {	
-        grid-column: 1/7;	
-        grid-row: 2;	
-    }	
-    .darken-image {	
-        height: 400px;	
-    }	
-    	
-    .text-overlay {	
-        height: 400px;	
-    }	
-=======
->>>>>>> 55d951af1d199af29b9bade1956b10dd2927799a
 
 
 
