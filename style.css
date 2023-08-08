@@ -168,6 +168,48 @@ h6 {
     padding: 0.5rem;
 }
 
+/* Mobile Navigation Menu */
+.mobile-navigation-menu {
+    display: none;
+}
+
+.nav-links.mobile {
+    flex-direction: column;
+    font-size: 1.5rem;
+}
+
+.nav-links.mobile li:last-child {
+    padding-right: 1rem;
+}
+
+.mobile-nav-close {
+    display: flex;
+    padding: 1rem 0 1rem 1rem;
+    z-index: 5;
+    justify-content: flex-end;
+}
+
+.big-icon {
+    font-size: 2rem;
+}
+
+.mobile-close-top {
+    background-color: var(--dark-bg-color);
+    position: fixed;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 2rem 1rem 2rem;
+    top: 0;
+}
+
+.links-mobile-group {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
 
 /* HERO SECTION */
 #hero {

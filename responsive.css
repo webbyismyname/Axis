@@ -1,4 +1,5 @@
 @media (max-width: 992px) {
+
     .container {
         width: 90%;
     }
@@ -14,6 +15,25 @@
 
     .nav-container.lower {
         display: none;
+    }
+
+    /* Mobile Navigation */
+    .mobile-navigation-menu {
+        position: absolute;
+        background-color: var(--dark-bg-color);
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        padding-top: 10rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 4rem;
+        overflow-y: scroll;   /* Makes the content of the mobile header scroll */
     }
 
     /* Feature Cards */
