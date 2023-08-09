@@ -282,6 +282,20 @@
     .login-signin {
         flex-direction: row;
     }
+
+    /* Explore finance options - Small businesses */
+    #finance-options .container.grid-6 {
+        flex-direction: column;
+    }
+
+    #finance-options .about-sec3-text {
+        width: 100%;
+    }
+    
+    #finance-options .about-sec3-img {
+        width: 100%;
+        order: -1;
+    }
 }
 
 

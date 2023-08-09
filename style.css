@@ -133,7 +133,9 @@ p {
 .grid-6 {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr;
     grid-gap: 24px;
+    align-items: center;
 }
 
 .grid-8 {
@@ -378,6 +380,7 @@ p {
     border-radius: 0 0 1rem 1rem;
     text-align: start;
     margin-top: -4px;
+    height: 50%;
 }
 
 .feature-card-text h6 {
@@ -444,7 +447,6 @@ p {
     flex-direction: column;
     gap: 2rem;
     grid-column: 1/4;
-    padding-top: 40px;
 }
 
 .about-sec3-img {
@@ -826,7 +828,7 @@ p {
     flex-direction: column;
     gap: 2rem;
     grid-column: 1/4;
-    padding-top: 40px;
+    /* padding-top: 40px; */
 }
 
 .about-sec3-img {
@@ -1105,4 +1107,26 @@ p {
 .info-icon {
     display: flex;
     justify-content: space-between;
+}
+
+/* Explore financing options section */
+#finance-options .container.grid-6 {
+    display: flex;
+}
+
+#finance-options .about-sec3-text {
+    width: 50%;
+}
+
+#finance-options .about-sec3-img {
+    width: 50%;
+}
+
+#finance-options .about-sec3-img img {
+    width: 100%;
+}
+
+
+.about-sec3-text .title-icon {
+    justify-content: flex-start;
 }
