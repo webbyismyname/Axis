@@ -1014,6 +1014,26 @@ p {
 }
 
 
+/* End Of Cycle */
+
+#end-of-cycle {
+    background-image: url(images/Scetion\ 4.png);
+    background-position: center;
+    background-size: cover;
+    height: 650px;
+}
+
+.end-of-cycle-div {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-top: 150px;
+}
+
+.end-of-cycle-div h1 {
+    color: var(--primary-color);
+}
+
 
 
 
