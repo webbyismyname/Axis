@@ -1074,7 +1074,7 @@ p {
     gap: 1rem;
 }
 
-.line {
+.line-extra-info {
     width: 100%;
     height: 1px;
     background-color: var(--dark-bg-color-24);
