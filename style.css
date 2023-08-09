@@ -1134,7 +1134,7 @@ p {
 
 /* Mobile app callout - Small businesses */
 #mobile-app-section-small-business {
-    background-color: var(--dark-bg-color);
+    background-color: var(--primary-color);
     color: var(--light-text-color);
 }
 
