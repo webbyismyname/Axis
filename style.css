@@ -1130,3 +1130,15 @@ p {
 .about-sec3-text .title-icon {
     justify-content: flex-start;
 }
+
+
+/* Mobile app callout - Small businesses */
+#mobile-app-section-small-business {
+    background-color: var(--dark-bg-color);
+    color: var(--light-text-color);
+}
+
+#mobile-app-section-small-business .download-button {
+    background-color: var(--light-text-color);
+    color: var(--dark-text-color);
+}
