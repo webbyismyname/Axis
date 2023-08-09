@@ -61,6 +61,10 @@ p {
     font-size: 1.25rem;
 }
 
+a {
+    cursor: pointer;
+}
+
 .container {
     max-width: 1328px;
     margin-left: auto;
@@ -71,7 +75,7 @@ p {
     padding-right: 1rem;
 }
 
-.button {
+button {
     cursor: pointer;
 }
 
@@ -1152,4 +1156,70 @@ p {
 /* Header page */
 #sign-up-header {
     background-color: var(--dark-bg-color);
+}
+
+.container.signup {
+    display: flex;
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 40%;
+    background-color: var(--secondary-color);
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+}
+
+.forms {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.vector-div {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+}
+
+label {
+    font-size: 1.125rem;
+}
+
+.input-style {
+    background-color: #ffffff;
+    padding: 1rem;
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.input-group {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+}
+
+.text-link {
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.button-div {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.login-redirect p {
+    font-size: 1rem;
 }

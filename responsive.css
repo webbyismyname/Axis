@@ -296,6 +296,25 @@
         width: 100%;
         order: -1;
     }
+
+
+    /* SIGN UP PAGE */
+    .container.signup {
+        flex-direction: column;
+    }
+
+    .vector-div {
+        width: 100%;
+        display: none;
+    }
+
+    .signup-form {
+        width: 100%;
+    }
+
+    .button-div button {
+        width: 50%;
+    }
 }
 
 
@@ -557,5 +576,14 @@
         gap: 0.5rem;
     }
 
-    
+    /* SIGN UP PAGE */
+
+    .input-group {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .button-div button {
+        width: 100%;
+    }
 }
