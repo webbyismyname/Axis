@@ -960,3 +960,39 @@ p {
 .invest-icn img {
     width: 100%;
 }
+
+
+/*Plan For Success*/
+
+.small-container {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 64px;
+    margin-bottom: 64px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 1 rem;
+}
+
+.plan-img {
+    background-color: var(--primary-color);
+    height: 350px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem 0rem 0rem 1rem;
+}
+
+.plan-txt {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding-top: 72px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-radius: 0rem 1rem 1rem 0rem;
+    border: 2px solid var(--dark-text-color);
+}
