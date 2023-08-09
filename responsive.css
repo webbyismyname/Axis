@@ -296,8 +296,9 @@
 @media (max-width: 768px) {
     /* HERO SECTION - SMALL BUSINESSES */
     #hero-small-business {
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
         grid-template-columns: 1fr;
+        border: none;
     }
 
     .hero-header-text {
