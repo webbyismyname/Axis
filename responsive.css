@@ -231,6 +231,29 @@
         display: none;
     }
 
+    /*Plan For Success*/
+
+    .small-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .plan-img {
+        width: 70%;
+        border-radius: 1rem 1rem 0rem 0rem;
+    }
+
+    .plan-txt {
+        width: 70%;
+        gap: 1.5rem;
+        padding-top: 24px;
+        padding-bottom: 24px;
+        padding-right: 24px;
+        border-radius: 0rem 0rem 1rem 1rem;
+
+    }
+
 
 
 
@@ -470,6 +493,23 @@
         align-items: center;
         justify-content: center;
         gap: 1.5rem;
+    }
+
+    /*Plan For Success*/
+
+    .plan-img {
+        width: 90%;
+        border-radius: 1rem 1rem 0rem 0rem;
+    }
+
+    .plan-txt {
+        width: 90%;
+        gap: 1.5rem;
+        padding-top: 24px;
+        padding-bottom: 24px;
+        padding-right: 24px;
+        border-radius: 0rem 0rem 1rem 1rem;
+
     }
 
 
