@@ -1142,3 +1142,14 @@ p {
     background-color: var(--light-text-color);
     color: var(--dark-text-color);
 }
+
+
+
+
+
+/* SIGN UP PAGE */
+
+/* Header page */
+#sign-up-header {
+    background-color: var(--dark-bg-color);
+}
