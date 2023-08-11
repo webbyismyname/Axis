@@ -75,19 +75,43 @@
             </div>
 
             <div class="signup-form">
-                <h2>Login to your account</h2>
+                <h2>Employment history</h2>
                 <form class="forms">
-                    <!-- email address -->
-                    <div class="input email">
-                        <label for="email-address">Email address</label>
-                        <input type="email" id="email-address" name="email-address" placeholder="Enter your email address"
+                    <!-- name of employer -->
+                    <div class="input name-employer">
+                        <label for="employer-name">Full name of employer</label>
+                        <input type="text" id="employer-name" name="employer-name" placeholder="Employer's full name"
                             class="input-style" required>
                     </div>
-                    <!-- password -->
-                    <div class="input password-input">
-                        <label for="password">Password</label>
-                        <input type="password" id="password" name="password" placeholder="Enter your password"
+
+                    <!-- address of employer -->
+                    <div class="input address-employer">
+                        <label for="employer-address">Addreess of employer</label>
+                        <input type="text" id="employer-address" name="employer-address" placeholder="Employee's address"
                             class="input-style" required>
+                    </div>
+
+                    <!-- type of employer -->
+                    <div class="input type-employer">
+                        <label for="employer-type">Type of employer</label>
+                        <input type="text" id="employer-type" name="employer-type" placeholder="Type of employer"
+                            class="input-style" required>
+                    </div>
+
+                    <!-- Salary range -->
+                    <div class="input salary">
+                        <label for="salary-range">Salary range</label>
+                        <select name="salary-range" id="salary-range">
+                            <datalist id="salary-range">
+                                <option value="">Select a salary range</option>
+                                <option value="$0 - $25,000">$0 - $25,000</option>
+                                <option value="$25,000 - $50,000">$25,000 - $50,000</option>
+                                <option value="$50,000 - $100,000">$50,000 - $100,000</option>
+                                <option value="$50,000 - $100,000">$50,000 - $100,000</option>
+                                <option value="$50,000 - $100,000">$50,000 - $100,000</option>
+                            </datalist>
+
+                        </select>
                     </div>
                     <!-- don't have an account -->
                     <div class="login-redirect">

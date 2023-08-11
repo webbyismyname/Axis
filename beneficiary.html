@@ -75,20 +75,41 @@
             </div>
 
             <div class="signup-form">
-                <h2>Login to your account</h2>
+                <h2>Beneficiary and next of kin</h2>
                 <form class="forms">
-                    <!-- email address -->
-                    <div class="input email">
-                        <label for="email-address">Email address</label>
-                        <input type="email" id="email-address" name="email-address" placeholder="Enter your email address"
+                    <!-- name of next of kin -->
+                    <div class="input name-nextofkin">
+                        <label for="nextofkin-name">Full name of next of kin</label>
+                        <input type="text" id="nextofkin-name" name="nextofkin-name" placeholder="Next of kin's full name"
                             class="input-style" required>
                     </div>
-                    <!-- password -->
-                    <div class="input password-input">
-                        <label for="password">Password</label>
-                        <input type="password" id="password" name="password" placeholder="Enter your password"
+
+                    <!-- address of next of kin -->
+                    <div class="input address-nextofkin">
+                        <label for="nextofkin-address">Address of next of kin</label>
+                        <input type="text" id="nextofkin-address" name="nextofkin-address" placeholder="Next of kin's address"
                             class="input-style" required>
                     </div>
+
+                    <!-- beneficiary's name -->
+                    <div class="input name-beneficiary">
+                        <label for="beneficiary-name">Beneficiary's name</label>
+                        <input type="text" id="beneficiary-name" name="beneficiary-name" placeholder="Beneficiary's name"
+                            class="input-style" required>
+                    </div>
+
+                    <!-- account type -->
+                    <div class="input type-account">
+                        <label for="account">Salary range</label>
+                        <select name="account" id="account-type">
+                            <datalist id="account-type">
+                                <option value="">Select an account type</option>
+                                <option value="checking account">Checking account</option>
+                                <option value="savings account">Savings account</option>
+                            </datalist>
+                        </select>
+                    </div>
+                    
                     <!-- don't have an account -->
                     <div class="login-redirect">
                         <p>Don't have an account? <a href="sign-up.html" class="text-link">Sign up</a></p>
