@@ -1256,15 +1256,20 @@ select:focus-visible {
 
 /* MAIN DASHBOARD */
 
+/* Left Dashboard Section */
+
 .dashboard-navigation {
     background-color: var(--dark-bg-color);
     grid-column: 1/2;
     padding-top: 2.5rem;
     height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .dashboard-main-logo {
-    padding-left: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .dashboard-nav-links {
@@ -1274,19 +1279,86 @@ select:focus-visible {
     gap: 1.5rem;
 }
 
-.dash-links {
+/* Dashboard */
+.dashboard-link {
     display: flex;
     flex-direction: row;
     gap: 1rem;
-    padding-left: 1.5rem;
+    /*justify-content: center;*/
+    padding-left: 2.5rem;
+    padding-right: 0.5rem;
     min-height: 3.5rem;
     align-items: center;
-    background-color: var(--secondary-color);
+    background-color: var(--secondary-color); 
 }
+
+/* Transaction */
+
+.transaction-link {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    /*justify-content: center;*/
+    padding-left: 2.5rem;
+    padding-right: 0.5rem;
+    min-height: 3.5rem;
+    align-items: center;
+    background-color: var(--dark-bg-color);
+    color: var(--light-text-color);
+}
+
+/* Credit Cards */
+
+.cc-link {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    /*justify-content: center;*/
+    padding-left: 2.5rem;
+    padding-right: 0.5rem;
+    min-height: 3.5rem;
+    align-items: center;
+    background-color: var(--dark-bg-color);
+    color: var(--light-text-color);
+}
+
+/* Deposit */
+
+.deposit-link {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    /*justify-content: center;*/
+    padding-left: 2.5rem;
+    padding-right: 0.5rem;
+    min-height: 3.5rem;
+    align-items: center;
+    background-color: var(--dark-bg-color);
+    color: var(--light-text-color);
+}
+
+/* Withdraw */
+
+.withdraw-link {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    /*justify-content: center;*/
+    padding-left: 2.5rem;
+    padding-right: 0.5rem;
+    min-height: 3.5rem;
+    align-items: center;
+    background-color: var(--dark-bg-color);
+    color: var(--light-text-color);
+}
+
+
+/* Dashboard Center */
 
 .dashboard-center {
     grid-column: 2/6;
     height: 100%;
+    padding-left: 1rem;
 }
 
 .dash-center-first{

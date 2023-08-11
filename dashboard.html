@@ -37,33 +37,91 @@
 
     <main class="grid-6" id="dashboard">
 
-        <!-- First Dashboard Section -->
+        <!-- Left Dashboard Section -->
 
         <section class="dashboard-navigation">
             <div class="dashboard-main-logo">
                 <img src="icons/axiscap logo.svg" alt="logo">
             </div>
+
+            
             <div class="dashboard-nav-links">
-                <div class="dash-links">
-                    <img src="icons/Dashboard.svg" alt="dash-svg">
-                    <p>Dashboard</p>
+
+                <!-- Dashboard -->
+                <div>
+                    <a href="dashboard.html" rel="Dashboard" class="dashboard-link">
+                        <img src="icons/Dashboard.svg" alt="dash-svg">
+                        <p>Dashboard</p>
+                    </a>
                 </div>
+
+                <!-- Transactions -->
                 <div class="dash-links">
-                    <img src="icons/Dashboard.svg" alt="dash-svg">
-                    <p>Transactions</p>
+                    <a href="transaction.html" rel="Transaction" class="transaction-link">
+                        <img src="icons/trans-light.svg" alt="dash-svg">
+                        <p>Transactions</p>
+                    </a>  
                 </div>
-                <div class="dash-links">
-                    <img src="icons/Dashboard.svg" alt="dash-svg">
-                    <p>Credit Cards</p>
+
+                <!-- Credit Cards -->
+                <div>
+                    <a href="credit-cards.html" rel="Credit Cards" class="cc-link">
+                        <img src="icons/cc-light.svg" alt="dash-svg">
+                        <p>Credit Cards</p>
+                    </a>  
                 </div>
-                <div class="dash-links">
-                    <img src="icons/Dashboard.svg" alt="dash-svg">
-                    <p>Deposit</p>
+
+                <!-- Deposit -->
+                <div>
+                    <a href="deposit.html" rel="Deposit" class="deposit-link">
+                        <img src="icons/deposit-light.svg" alt="dash-svg">
+                        <p>Deposit</p>   
+                    </a>
                 </div>
-                <div class="dash-links">
-                    <img src="icons/Dashboard.svg" alt="dash-svg">
-                    <p>Withdrawal</p>
+
+                <!-- Withdraw -->
+                <div>
+                    <a href="withdraw.html" rel="Withdraw" class="withdraw-link">
+                        <img src="icons/withdraw-light.svg" alt="dash-svg">
+                        <p>Withdraw</p>  
+                    </a>
                 </div>
+
+                <div class="ham-menu">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <!-- Mobile navigation menu -->
+                </div>
+                <div class="mobile-navigation-menu">   
+                    <!-- Navigation links -->
+                    <div class="links-mobile-group">
+                        <nav class="mobile-nav">
+                            <ul class="nav-links mobile">
+                                <li><a href="#">Bank</a></li>
+                                <li><a href="#">Loans</a></li>
+                                <li><a href="#">Invest</a></li>
+                            </ul>
+                        </nav>
+                        <nav class="mobile-nav">
+                            <ul class="nav-links mobile">
+                                <li><a href="#">About us</a></li>
+                                <li><a href="#">Help</a></li>
+                                <li><a href="#">My account</a></li>
+                            </ul>
+                        </nav>
+                        <nav class="mobile-nav">
+                            <ul class="nav-links mobile">
+                                <li><a href="#">Personal</a></li>
+                                <li><a href="#">Mortgage</a></li>
+                                <li><a href="#">Small businesses</a></li>
+                                <li><a href="#">Commercial</a></li>
+                                <li><a href="#">Investment & Wealth</a></li>
+                            </ul>
+                        </nav>
+                        <button class="btn-light button">Client login</button>
+                    </div>
+                    
             </div>
         </section>
 
@@ -101,12 +159,12 @@
                     <div class="center-light-card1">
                         <h4>AxisCapital Savings</h4>
                         <h2>$0.00</h2>
-                        <button class="btn-dark">Make a Deposit</button>
+                        <button class="btn-dark">Deposit</button>
                     </div>
                     <div class="center-light-card2">
                         <h4>Pending Checking</h4>
                         <h2>$0.00</h2>
-                        <button class="btn-dark">Make a Deposit</button>
+                        <button class="btn-dark">Deposit</button>
                     </div>
                 </div>
             </div>
