@@ -35,7 +35,8 @@
 
 <body>
 
-    <main class="grid-6">
+    <main class="grid-6" id="dashboard">
+
         <!-- First Dashboard Section -->
 
         <section class="dashboard-navigation">
@@ -69,6 +70,8 @@
         <!-- Second Dashboard Section -->
 
         <section class="dashboard-center">
+
+            <!--Greeting & Profile Pic-->
             <div class="dash-center-first">
                 <div class="flex-row">
                     <div class="flex-row" style="width: 230px;">
@@ -86,6 +89,7 @@
                 </div>
             </div>
 
+            <!--Cards-->
             <div class="dash-center-second">
                 <h3>My Account</h3>
                 <div class="grid-6">
@@ -106,14 +110,76 @@
                     </div>
                 </div>
             </div>
+
+            <!--This is where the chart will be embedded-->
             <div>
 
             </div>
-            <div>
 
+            <!--Recent Transactions-->
+            <div class="rcnt-transaction">
+                <h3>Recent Transaction</h3>
+                <div class="rcnt-transaction-div">
+                    <img src="icons/recent-transaction-icon.svg" alt="Transaction Icon">
+                    <p>Your 10 most recent transactions will appear here</p>
+                </div>
             </div>
+            
         </section>
 
+        <!-- Third Dashboard Section -->
+
+        <section class="dashboard-right">
+            <div class="dash-right-heading">
+                <h3>Local transfer</h3>
+                <p>International Transfer?</p>
+            </div>
+
+            <div class="dash-right-balance">
+                <h2>$0.00</h2>
+            </div>
+
+            <div>
+                <form class="forms">
+                    <!-- Amount -->
+                    <div class="input firstname">
+                        <input type="text" id="Amount" name="Amount" placeholder="Amount" class="input-style" required>
+                    </div>
+
+                    <!-- Account Number -->
+                    <div class="input firstname">
+                        <input type="text" id="Account Number" name="Account Number" placeholder="Account Number" class="input-style" required>
+                    </div>
+
+                    <!-- Account Name -->
+                    <div class="input firstname">
+                        <input type="text" id="Account Name" name="Account Name" placeholder="Account Name" class="input-style" required>
+                    </div>
+
+                    <!-- Bank Name -->
+                    <div class="input firstname">
+                        <input type="text" id="Bank Name" name="Bank Name" placeholder="Bank Name" class="input-style" required>
+                    </div>
+
+                    <!-- Description -->
+                    <div class="input firstname">
+                        <input type="text" id="Description" name="Description" placeholder="Description" class="input-style" required>
+                    </div>
+
+                    <!-- submit button -->
+                    <div>
+                        <button class="btn-dark" style="width: 100%;">Transfer</button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="dash-right-loans">
+                <img src="icons/Home Loans.svg" alt="hole loans icons" style="height: 64px; width: 64px;">
+                <h4>Home Loans</h4>
+                <p>Getting a loan doesn't have to be a hassle, apply for a mortgage loan with AxisCapital today</p>
+                <button class="btn-dark" style="width: 200px;">Apply Now</button>
+            </div>
+        </section>
 
     </main>
 
