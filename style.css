@@ -1387,7 +1387,7 @@ select:focus-visible {
 }
 
 .dash-center-second {
-    padding: 1.5rem;
+    padding: 1.5rem 0;
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
@@ -1442,6 +1442,10 @@ select:focus-visible {
     align-items: center;
     min-height: 200px;
     justify-content: center;
+}
+
+.rcnt-transaction-div p {
+    text-align: center;
 }
 
 .rcnt-transaction-div > img {
