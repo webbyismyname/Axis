@@ -1279,8 +1279,9 @@ select:focus-visible {
     gap: 1.5rem;
 }
 
-/* Dashboard */
-.dashboard-link {
+/* Light Link */
+
+.light-link {
     display: flex;
     flex-direction: row;
     gap: 1rem;
@@ -1291,9 +1292,9 @@ select:focus-visible {
     background-color: var(--secondary-color); 
 }
 
-/* Transaction */
+/* Dark Link */
 
-.transaction-link {
+.dark-link {
     display: flex;
     flex-direction: row;
     gap: 1rem;
@@ -1304,52 +1305,6 @@ select:focus-visible {
     background-color: var(--dark-bg-color);
     color: var(--light-text-color);
 }
-
-/* Credit Cards */
-
-.cc-link {
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
-    /*justify-content: center;*/
-    padding-left: 2.5rem;
-    padding-right: 0.5rem;
-    min-height: 3.5rem;
-    align-items: center;
-    background-color: var(--dark-bg-color);
-    color: var(--light-text-color);
-}
-
-/* Deposit */
-
-.deposit-link {
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
-    /*justify-content: center;*/
-    padding-left: 2.5rem;
-    padding-right: 0.5rem;
-    min-height: 3.5rem;
-    align-items: center;
-    background-color: var(--dark-bg-color);
-    color: var(--light-text-color);
-}
-
-/* Withdraw */
-
-.withdraw-link {
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
-    /*justify-content: center;*/
-    padding-left: 2.5rem;
-    padding-right: 0.5rem;
-    min-height: 3.5rem;
-    align-items: center;
-    background-color: var(--dark-bg-color);
-    color: var(--light-text-color);
-}
-
 
 /* Dashboard Center */
 
@@ -1504,4 +1459,78 @@ select:focus-visible {
 
 #dashboard {
     height: 100vh;
+}
+
+
+/* Transactions */
+
+.dash-right-img {
+    height: 500px;
+    width: 100%;
+    border-radius: 1rem;
+    position: relative; 
+    overflow: hidden; 
+}
+
+.dash-right-img > img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute; 
+    top: 0;
+    left: 0; 
+}
+
+.dashboard-right> h2 {
+    color: var(--primary-color);
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.trans-dark-card {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    background-color: var(--primary-color);
+    color: var(--light-text-color);
+    border-radius: 1rem;
+    grid-column: 1/4;
+    grid-row: 1;
+}
+
+.trans-light-card1 {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    background-color: var(--secondary-color);
+    color: var(--dark-text-color);
+    border-radius: 1rem;
+    grid-column: 4/7;
+    grid-row: 1;
+}
+
+.trans-light-card2 {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    background-color: var(--secondary-color);
+    color: var(--dark-text-color);
+    border-radius: 1rem;
+    grid-column: 1/4;
+    grid-row: 2;
+}
+
+.trans-light-card3 {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    background-color: var(--primary-color);
+    color: var(--light-text-color);
+    border-radius: 1rem;
+    grid-column: 4/7;
+    grid-row: 2;
 }
