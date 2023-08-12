@@ -1,4 +1,4 @@
-<!-- Dashboard -->
+<!-- Transactions -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -36,7 +36,6 @@
 <body>
 
     <main class="grid-6" id="dashboard">
-
         <!-- Left Dashboard Section -->
 
         <section class="dashboard-navigation">
@@ -49,16 +48,16 @@
 
                 <!-- Dashboard -->
                 <div>
-                    <a href="dashboard.html" rel="Dashboard" class="light-link">
-                        <img src="icons/Dashboard.svg" alt="dash-svg">
+                    <a href="dashboard.html" rel="Dashboard" class="dark-link">
+                        <img src="icons/dash-light.svg" alt="dash-svg">
                         <p>Dashboard</p>
                     </a>
                 </div>
 
                 <!-- Transactions -->
                 <div class="dash-links">
-                    <a href="transaction.html" rel="Transaction" class="dark-link">
-                        <img src="icons/trans-light.svg" alt="dash-svg">
+                    <a href="transaction.html" rel="Transaction" class="light-link">
+                        <img src="icons/trans-dark.svg" alt="dash-svg">
                         <p>Transactions</p>
                     </a>  
                 </div>
@@ -112,7 +111,7 @@
             </div>
         </section>
 
-        <!-- Second Dashboard Section -->
+        <!--Dashboard Center-->
 
         <section class="dashboard-center">
 
@@ -133,27 +132,27 @@
             <div class="dash-center-second">
                 <h3>My Account</h3>
                 <div class="grid-6">
-                    <div class="center-dark-card">
+                    <div class="trans-dark-card">
                         <h4>Available Balance</h4>
                         <h2>$0.00</h2>
-                        <button class="btn-light">Learn more</button>
+                        <button class="btn-light">Transfer Money</button>
                     </div>
-                    <div class="center-light-card1">
+                    <div class="trans-light-card1">
                         <h4>AxisCapital Savings</h4>
                         <h2>$0.00</h2>
-                        <button class="btn-dark">Deposit</button>
+                        <button class="btn-dark"> Make a Deposit</button>
                     </div>
-                    <div class="center-light-card2">
-                        <h4>Pending Checking</h4>
+                    <div class="trans-light-card2">
+                        <h4>Savings</h4>
                         <h2>$0.00</h2>
-                        <button class="btn-dark">Deposit</button>
+                        <!--<button class="btn-dark">Make a Deposit</button>-->
+                    </div>
+                    <div class="trans-light-card3">
+                        <h4>Expenses</h4>
+                        <h2>$0.00</h2>
+                        <!--<button class="btn-dark">Transfer Money</button>-->
                     </div>
                 </div>
-            </div>
-
-            <!--This is where the chart will be embedded-->
-            <div>
-
             </div>
 
             <!--Recent Transactions-->
@@ -164,53 +163,14 @@
                     <p>Your 10 most recent transactions will appear here</p>
                 </div>
             </div>
-            
+
         </section>
 
-        <!-- Third Dashboard Section -->
-
+        <!--Dashboard Right-->
         <section class="dashboard-right">
-            <div class="dash-right-heading">
-                <h3>Local transfer</h3>
-                <p>International Transfer?</p>
-            </div>
 
-            <div class="dash-right-balance">
-                <h2>$0.00</h2>
-            </div>
-
-            <div>
-                <form class="forms">
-                    <!-- Amount -->
-                    <div class="input firstname">
-                        <input type="text" id="Amount" name="Amount" placeholder="Amount" class="input-style" required>
-                    </div>
-
-                    <!-- Account Number -->
-                    <div class="input firstname">
-                        <input type="text" id="Account Number" name="Account Number" placeholder="Account Number" class="input-style" required>
-                    </div>
-
-                    <!-- Account Name -->
-                    <div class="input firstname">
-                        <input type="text" id="Account Name" name="Account Name" placeholder="Account Name" class="input-style" required>
-                    </div>
-
-                    <!-- Bank Name -->
-                    <div class="input firstname">
-                        <input type="text" id="Bank Name" name="Bank Name" placeholder="Bank Name" class="input-style" required>
-                    </div>
-
-                    <!-- Description -->
-                    <div class="input firstname">
-                        <input type="text" id="Description" name="Description" placeholder="Description" class="input-style" required>
-                    </div>
-
-                    <!-- submit button -->
-                    <div>
-                        <button class="btn-dark" style="width: 100%;">Transfer</button>
-                    </div>
-                </form>
+            <div class="dash-right-img">
+                <h2>This Is Banking Forward</h2>
             </div>
 
             <div class="dash-right-loans">
@@ -219,11 +179,10 @@
                 <p>Getting a loan doesn't have to be a hassle, apply for a mortgage loan with AxisCapital today</p>
                 <button class="btn-dark" style="width: 200px;">Apply Now</button>
             </div>
+
         </section>
 
     </main>
-
-
 
 
 </body>
