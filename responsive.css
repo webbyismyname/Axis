@@ -33,6 +33,10 @@
         grid-column: 3/6;
     }
 
+    .cc-center {
+        grid-column: 3/7;
+    }
+
     .dashboard-right {
         grid-column: 6/7;
     }
@@ -88,6 +92,16 @@
 
     .dashboard-center {
         grid-column: 1/6;
+        height: 100%;
+    }
+
+    .cc-center {
+        grid-column: 1/7; 
+    }
+
+
+    /* CREDIT CARD PAGE */
+    #dashboard {
         height: 100%;
     }
 }
