@@ -1569,3 +1569,89 @@ select:focus-visible {
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
 }
+
+
+
+
+
+
+
+
+/* DEPOSIT PAGE */
+.dash-center-second.deposit .center-dark-card{
+    grid-column: 1/4;
+    gap: 3rem;
+}
+
+.dash-center-second.deposit .center-light-card1 {
+    grid-column: 4/7;
+    gap: 3rem;
+}
+
+.dash-center-second.deposit .center-light-card2 {
+    grid-column: 1/4;
+    gap: 3rem;
+}
+
+.dash-center-second.deposit .center-light-card3 {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 1.5rem;
+    background-color: var(--secondary-color);
+    color: var(--dark-text-color);
+    border-radius: 1rem;
+    grid-column: 4/7;
+}
+
+.ac-num {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+.dashboard-right.deposit-page {
+    height: 100vh;
+    max-width: 400px;
+    min-width: 300px;
+    padding-top: 6rem;
+}
+
+.dash-right-img {
+    background-color: #FFFFFF;
+
+}
+
+.dash-right-img img {
+    width: 100%;
+}
+
+.dash-right-img h2 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+
+
+
+/* WITHDRAWAL PAGE */
+#withdraw-form-section {
+    background-color: var(--secondary-color);
+    padding: 1.5rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.withdrawal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.withdrawable-amount .dash-right-balance {
+    margin-top: 0;
+    margin-bottom: 0;
+}
