@@ -1595,3 +1595,27 @@ select:focus-visible {
     font-size: 3rem;
     font-weight: 700;
 }
+
+
+
+
+/* WITHDRAWAL PAGE */
+#withdraw-form-section {
+    background-color: var(--secondary-color);
+    padding: 1.5rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.withdrawal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.withdrawable-amount .dash-right-balance {
+    margin-top: 0;
+    margin-bottom: 0;
+}
