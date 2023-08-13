@@ -108,7 +108,7 @@ button {
     display: flex;
     justify-content: center;
     text-transform: capitalize;
-    /*width: max-content;*/
+    width: max-content;
 }
 
 .btn-stroke-light {
@@ -1370,6 +1370,10 @@ select:focus-visible {
     grid-column: 3/5;
 }
 
+.center-light-card1 > button {
+    width: 100%;
+}
+
 .center-light-card2 {
     display: flex;
     flex-direction: column;
@@ -1379,6 +1383,10 @@ select:focus-visible {
     color: var(--dark-text-color);
     border-radius: 1rem;
     grid-column: 5/7;
+}
+
+.center-light-card2 > button {
+    width: 100%;
 }
 
 .rcnt-transaction {
