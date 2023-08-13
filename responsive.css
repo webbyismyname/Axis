@@ -98,6 +98,12 @@
     .cc-center {
         grid-column: 1/7; 
     }
+
+
+    /* CREDIT CARD PAGE */
+    #dashboard {
+        height: 100%;
+    }
 }
 
 
