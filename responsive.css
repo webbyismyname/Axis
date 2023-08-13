@@ -699,6 +699,29 @@
         grid-column: 1/7;
         grid-row: 4;
     }
+
+
+    /* DEPOSIT PAGE */
+    .dash-center-second.deposit .grid-6 {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+    }
+
+    .dash-center-second.deposit .center-dark-card {
+        grid-column: 1/2;
+    }
+
+    .dash-center-second.deposit .center-light-card1 {
+        grid-column: 1/2;
+    }
+
+    .dash-center-second.deposit .center-light-card2 {
+        grid-column: 1/2;
+    }
+
+    .dash-center-second.deposit .center-light-card3 {
+        grid-column: 1/2;
+    }
 }
 
 
