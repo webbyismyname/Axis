@@ -395,6 +395,21 @@
         grid-row: 3;
     }
 
+
+
+
+    /* DEPOSIT PAGE */
+    .dashboard-right.deposit-page {
+        min-width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+        height: 200px;
+        padding-top: 1rem;
+    }
+
+    .dash-right-img {
+        background-position: center center;
+    }
 }
 
 
@@ -662,8 +677,8 @@
     .profile-img {
         grid-column: 1/7;
         grid-row: 1;
-    }
 
+    }
     /* Transaction */
     .trans-dark-card {
         grid-column: 1/7;

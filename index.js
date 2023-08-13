@@ -1,3 +1,5 @@
+//Mobile navigation animation
+
 const mobileNavMenu = document.querySelector('.mobile-navigation-menu');
 const hamburgerMenuIcon = document.querySelector('.ham-menu');
 
