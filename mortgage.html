@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mortgage</title>
+
+    <style>
+        .material-symbols-rounded {
+            cursor: pointer;
+          font-variation-settings:
+          'FILL' 0,
+          'wght' 400,
+          'GRAD' 0,
+          'opsz' 48
+        }
+    </style>
+
+    <!-- Google symbols -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    
+</head>
+
+<body>
+
+    <header id="header">
+        <!-- Top navigation -->
+        <div class="nav-container">
+            <a href="index.html" rel="logo">
+                <img src="icons/axiscap logo.svg">
+            </a>
+            <nav class="nav">
+                <ul class="nav-links">
+                    <li>Bank</li>
+                    <li>Loans</li>
+                    <li>Invest</li>
+                </ul>
+            </nav>
+            <nav class="nav">
+                <ul class="nav-links">
+                    <li><a href="about.html" rel="about">About Us</a></li>
+                    <li>Help</li>
+                    <li>My Account</li>
+                </ul>
+            </nav>
+            <div class="ham-menu">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            
+            <!-- Mobile navigation menu -->
+            <div class="mobile-navigation-menu">   
+                <!-- Navigation links -->
+                <div class="links-mobile-group">
+                    <nav class="mobile-nav">
+                        <ul class="nav-links mobile">
+                            <li><a href="#">Bank</a></li>
+                            <li><a href="#">Loans</a></li>
+                            <li><a href="#">Invest</a></li>
+                        </ul>
+                    </nav>
+                    <nav class="mobile-nav">
+                        <ul class="nav-links mobile">
+                            <li><a href="about.html" rel="About Us">About us</a></li>
+                            <li><a href="#">Help</a></li>
+                            <li><a href="#">My account</a></li>
+                        </ul>
+                    </nav>
+                    <nav class="mobile-nav">
+                        <ul class="nav-links mobile">
+                            <li><a href="index.html" rel="Homepage">Personal</a></li>
+                            <li><a href="mortgage.html" rel="Mortgage">Mortgage</a></li>
+                            <li><a href="small-businesses.html" rel="Small Businesses">Small businesses</a></li>
+                            <li><a href="investment.html" rel="Investment & Wealth">Investment & Wealth</a></li>
+                        </ul>
+                    </nav>
+                    <button class="btn-light button">Client login</button>
+                </div>
+                
+            </div>
+            
+        </div>
+        <!-- Lower Navigation -->
+        <div class="nav-container lower">
+            <nav class="nav">
+                <ul class="nav-links">
+                    <li><a href="index.html" rel="Homepage">Personal</a></li>
+                    <li><a href="mortgage.html" rel="Mortgage">Mortgage</a></li>
+                    <li><a href="small-businesses.html" rel="Small Businesses">Small businesses</a></li>
+                    <li><a href="investment.html" rel="Investment & Wealth">Investment & Wealth</a></li>
+                </ul>
+            </nav>
+            <a href="login.html" rel="Login Page">
+                <button class="btn-light button">Client login</button>                
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <!--First Section-->
+        <section id="mortgage-hero">
+            <div class="overlay">
+                <div class="container about-hero-div">   
+                    <div class="about-hero-text">
+                        <h5>
+                            MORTGAGE
+                        </h5>
+                        <h2>
+                            From House Hunting to Moving Day
+                        </h2>
+                        <p>
+                            At AxisCapital, we are committed to creating a better banking experience with innovative solutions that make our customers' lives easier and more convenient.
+                        </p>
+                        <a href="sign-up.html" rel="Sign Up Page">
+                            <button class="btn-light button">Learn More</button>
+                        </a>
+                    </div>  
+                </div>
+            </div>
+        </section>
+
+        <!-- How Can We Help -->
+        <section id="loan-rates-section">
+            <div class="container loan-rates">
+                <div class="mortgage-help-header">
+                    <p>How can we help?</p>
+                    <h2>I'm Ready To:</h2>
+                </div>
+
+                <div class="rate-card-list">
+                    <!-- 1st Card -->
+                    <div class="mortgage-card">
+                        <div class="rate-icon-header">
+                            <img src="icons/mortgage-online.svg">
+                        </div>
+                        <h3>Apply Online Now</h3>
+                    </div>
+
+                    <!-- 2nd Card -->
+                    <div class="mortgage-card">
+                        <div class="rate-icon-header">
+                            <img src="icons/mortgage-banker.svg">
+                        </div>
+                        <h3>Find a Local Mortgage Banker</h3>
+                    </div>
+
+                    <!-- 3rd Card -->
+                    <div class="mortgage-card">
+                        <div class="rate-icon-header">
+                            <img src="icons/Home-Loans-light.svg">
+                        </div>
+                        <h3>Apply For a Home Loan</h3>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!--When You Find the Right Home, You Know-->
+
+        <section>
+            <div class="container about-sec2">
+                <h2>
+                    When You Find the Right Home, You Know
+                </h2>
+                <p>
+                    We want to make the mortgage process feel the same way. 
+                    Our loan officers work closely with you to make sure you are 
+                    comfortable with your mortgage loan and it will help you meet your long-term goals.
+                </p> 
+            </div>
+        </section>
+
+        <!--Mortgage Loan Options-->
+
+        <section>
+            <div class="container grid-6">
+                <div class="pdts-and-srvs">
+                    <div class="pdts-and-srvs-text">
+                        <h2>Mortgage Loan Options</h2>
+                        <p>Talk to us about what's important to you and we'll find the mortgage that will fit you best.</p>
+                    </div>
+                    
+                    <div class="list-feat-all">
+                        <div class="list-feat">
+                            <img src="icons/check-circle.svg" width="24">
+                            <h6>Fixed-Rate Mortgages</h6>
+                        </div>
+                        <div class="list-feat">
+                            <img src="icons/check-circle.svg" width="24">
+                            <h6>Adjustable-Rate Mortgages</h6>
+                        </div>
+                        <div class="list-feat">
+                            <img src="icons/check-circle.svg" width="24">
+                            <h6>FHA Loans</h6>
+                        </div>
+                        <div class="list-feat">
+                            <img src="icons/check-circle.svg" width="24">
+                            <h6>VA Loans</h6>
+                        </div>
+                        <div class="list-feat">
+                            <img src="icons/check-circle.svg" width="24">
+                            <h6>USDA Loans</h6>
+                        </div>
+                        <div class="list-feat">
+                            <img src="icons/check-circle.svg" width="24">
+                            <h6>Construction Loans</h6>
+                        </div>
+                        <div class="list-feat">
+                            <img src="icons/check-circle.svg" width="24">
+                            <h6>Jumbo Loans</h6>
+                        </div>
+                        <div class="list-feat">
+                            <img src="icons/check-circle.svg" width="24">
+                            <h6>Lot Loans</h6>
+                        </div>
+                        <div class="list-feat">
+                            <img src="icons/check-circle.svg" width="24">
+                            <h6>Physician Loans</h6>
+                        </div>
+                        <div class="list-feat">
+                            <img src="icons/check-circle.svg" width="24">
+                            <h6>Portfolio Loans</h6>
+                        </div>
+                        <div class="list-feat">
+                            <img src="icons/check-circle.svg" width="24">
+                            <h6>Buyers Advantage</h6>
+                        </div>
+                        <div class="list-feat">
+                            <img src="icons/check-circle.svg" width="24">
+                            <h6>Manufactured Housing Loans</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pdts-and-srvs-img" style="background-image: url('images/mortgage-mom&baby.png'); background-position: center; background-size: cover; background-repeat: no-repeat; border-radius: 1rem; height: 300px;">
+                </div>
+            </div>
+        </section>
+
+        <!-- Refinance Your Home -->
+        <section id="finance-options">
+            <div class="container grid-6">
+
+                <div class="about-sec3-img">
+                    <img src="images/mortgage-family.webp">
+                </div>
+
+                <div class="about-sec3-text">
+                    <h2>
+                        Refinance Your Home
+                    </h2>
+                    <p>
+                        By refinancing, you may be able to reduce your interest rate and monthly payment. 
+                        You may also reduce the term length so your home is paid off faster. 
+                        Our mortgage loan officers can recommend refinancing options that will get you closer to your goals.
+                    </p>
+                    <div class="finance-btns">
+                        <button class="btn-dark">Log in</button>
+                        <div class="title-icon">
+                            <h6>Learn more</h6>
+                            <span class="material-symbols-rounded">
+                                chevron_right
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                    
+            </div>
+        </section>
+
+        <!-- First-Time Buyer Resources -->
+        <section>
+            <div class="container buyer-resources">
+
+                <div class="resources-left-div">
+                    <h2>First-Time Buyer Resources</h2>
+                    <div class="resources-left-list">
+                        <div class="list-feat">
+                            <img src="icons/check-circle-light-filled.svg" width="24">
+                            <h6>Fixed-Rate Mortgages</h6>
+                        </div>
+                        <div class="list-feat">
+                            <img src="icons/check-circle-light-filled.svg" width="24">
+                            <h6>Adjustable-Rate Mortgages</h6>
+                        </div>
+                        <div class="list-feat">
+                            <img src="icons/check-circle-light-filled.svg" width="24">
+                            <h6>FHA Loans</h6>
+                        </div>
+                        <div class="list-feat">
+                            <img src="icons/check-circle-light-filled.svg" width="24">
+                            <h6>VA Loans</h6>
+                        </div>
+                        <div class="list-feat">
+                            <img src="icons/check-circle-light-filled.svg" width="24">
+                            <h6>USDA Loans</h6>
+                        </div>
+                        <div class="list-feat">
+                            <img src="icons/check-circle-light-filled.svg" width="24">
+                            <h6>Construction Loans</h6>
+                        </div>
+                    </div>
+                    <div class="resc-icon">
+                        <h6>Learn more</h6>
+                        <img src="icons/chevron-light.svg" rel="Chevron Right Light">
+                    </div>
+                </div>
+
+                <div class="resources-right-div">
+                    <img src="icons/money-icn.svg" rel="Money">
+                    <h2>Find What You Can Afford</h2>
+                    <div class="resc-icon">
+                        <h6>Speak to a Axis banker</h6>
+                        <span class="material-symbols-rounded">
+                        chevron_right
+                        </span>
+                    </div>  
+                </div>
+            </div>
+        </section>
+
+        <!-- Insights & Stories Section -->
+        <section id="insights-section">
+            <div class="container insights">
+                <div class="section-header">
+                    <h2>Insights & Stories</h2>
+                </div>
+                <div class="insight-card-list">
+                    <!-- 1st insight card -->
+                    <div class="insight-card">
+                        <div class="insight-img">
+                            <img src="images/customer-server-insights.png" alt="a customer service representative">
+                        </div>
+                        <div class="insight-text">
+                            <h4>Customer Service: Tools to manage your account</h4>
+                            <div class="title-icon">
+                                <h6>Learn more</h6>
+                                <span class="material-symbols-rounded">
+                                    chevron_right
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 2nd insight card -->
+                    <div class="insight-card">
+                        <div class="insight-img">
+                            <img src="images/holding-hands-insights.jpg" alt="a customer service representative">
+                        </div>
+                        <div class="insight-text">
+                            <h4>Axis is committed to helping close the racial wealth gap</h4>
+                            <div class="title-icon">
+                                <h6>Learn more</h6>
+                                <span class="material-symbols-rounded">
+                                    chevron_right
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 3rd insight card -->
+                    <div class="insight-card">
+                        <div class="insight-img">
+                            <img src="images/laptop-credit-card-insight.jpg" alt="a customer service representative">
+                        </div>
+                        <div class="insight-text">
+                            <h4>Videos to help you bank from your device</h4>
+                            <div class="title-icon">
+                                <h6>Learn more</h6>
+                                <span class="material-symbols-rounded">
+                                    chevron_right
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 4th insight card -->
+                    <div class="insight-card">
+                        <div class="insight-img">
+                            <img src="images/teaching-insight.jpg" alt="a customer service representative">
+                        </div>
+                        <div class="insight-text">
+                            <h4>Spotlight Stories: Brewing up generation wealth</h4>
+                            <div class="title-icon">
+                                <h6>Learn more</h6>
+                                <span class="material-symbols-rounded">
+                                    chevron_right
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer id="footer-section">
+        <div class="container footer">
+            <div class="footer-logo-icons-links">
+                <div class="footer-logo-icons">
+                    <a href="index.html" rel="logo">
+                        <img src="icons/axiscap logo.svg" class="footer-logo">
+                    </a>
+                    <div class="footer-icons">
+                        <a href="index.html">
+                            <img src="icons/social/LinkedIn.svg"/>
+                        </a>
+                        <a href="index.html">
+                            <img src="icons/social/Pinterest.svg"/>
+                        </a>
+                        <a href="index.html">
+                            <img src="icons/social/YouTube.svg"/>
+                        </a>
+                        <a href="index.html">
+                            <img src="icons/social/Instagram.svg"/>
+                        </a>
+                        <a href="index.html">
+                            <img src="icons/social/Twitter.svg"/>
+                        </a>
+                        <a href="index.html">
+                            <img src="icons/social/Facebook.svg"/>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-navlinks-columns">
+                    <div class="footer-navlinks">
+                        <ul class="nav-links">
+                            <li><a>Privacy & Cookies</a></li>
+                            <li>Ad Choices</li>
+                            <li>Terms & Conditions</li>
+                            <li>Security & Fraud Awareness</li>
+                            <li>Regulatory Disclosures</li>
+                        </ul>
+                    </div>
+                    <div class="footer-navlinks">
+                        <ul class="nav-links">
+                            <li><a>Site map</a></li>
+                            <li>Client login</li>
+                            <li>Employee login</li>
+                            <li>Alumni Network</li>
+                            <li>Mobile view</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="line-copyright">
+                <div class="line"></div>
+                <p>© <small>2023 The Axis Financial Services, Inc. All rights reserved</small></p>
+            </div>
+        </div>
+    </footer>
+
+
+</body>

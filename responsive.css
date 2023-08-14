@@ -424,6 +424,15 @@
     .dash-right-img {
         background-position: center center;
     }
+
+
+    /* Mortgage */
+
+    /* Mortgage-Help Section */
+
+    .mortgage-help-header {
+        width: 100%;
+    }
 }
 
 
@@ -735,6 +744,19 @@
 
     .dash-center-second.deposit .center-light-card3 {
         grid-column: 1/2;
+    }
+
+
+    .buyer-resources {
+        flex-direction: column;
+    }
+
+    .resources-left-div {
+        width: 100%;
+    }
+
+    .resources-right-div {
+        width: 100%;
     }
 }
 
