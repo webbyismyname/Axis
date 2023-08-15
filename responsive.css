@@ -469,6 +469,24 @@
         width: 100%;
     }
 
+
+    /* Loan Hero Section */
+
+
+    #loan-hero {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .loan-hero-left {
+        width: 100%;
+    }
+
+
+    .loan-hero-right-text {
+        width: 100%;
+    }
+
 }
 
 
